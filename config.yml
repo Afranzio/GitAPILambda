@@ -1,11 +1,8 @@
-- name: AWS SNS - Publish Topic
-  uses: nothingalike/sns-publish-topic@v1.7
-  
 - name: Publish SNS Topic
   uses: nothingalike/sns-publish-topic@v1.6
   with:
-    MESSAGE: "message"
-    TOPIC_ARN: "arn:aws:sns:[your region]:[your account id]:[your topic name]"
+    MESSAGE: "Lambda"
+    TOPIC_ARN: "arn:aws:sns:us-east-2:062767682145:GitLambda"
   env:
     AWS_REGION: us-east-2
     AWS_ACCESS_KEY_ID: AKIAQ5HJ62JQSOOAWYW5
