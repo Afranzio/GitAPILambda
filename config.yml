@@ -7,6 +7,6 @@
     MESSAGE: "message"
     TOPIC_ARN: "arn:aws:sns:[your region]:[your account id]:[your topic name]"
   env:
-    AWS_REGION: ${{ secrets.AWS_REGION }}
-    AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-    AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+    AWS_REGION: us-east-2
+    AWS_ACCESS_KEY_ID: AKIAQ5HJ62JQSOOAWYW5
+    AWS_SECRET_ACCESS_KEY:  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
